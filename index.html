@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio </title>
     <link rel="stylesheet" href="portfolio.css">
     <link rel="icon" href="images/Portfolio_pic.png">
-    
-  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
-    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
-</head>
-<body> 
-  
+
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+
     <nav class="navbar">
       <a href="index.html" class="logo">Portfolio</a>
-      <ul class="nav-links">
+
+      <!-- Hamburger Button -->
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <ul class="nav-links" id="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="Project.html">Projects</a></li>
         <li><a href="certificates.html">Certificate</a></li>
@@ -25,63 +31,68 @@
       </ul>
     </nav>
 
-  
-   
     <section id="home" class="hero">
       <div class="hero-content">
         <h1>👩🏻‍💻About Me</h1>
-          <h3>Hello, I am  MAHI PATEL</h3>
-          <p>I'm a passionate Frontend Developer and Software Engineering student with a strong interest in building modern, responsive, and user-friendly web applications. I enjoy turning creative ideas into interactive digital experiences using clean code and intuitive design.</p>
-          <p>Currently, I'm strengthening my skills in Data Structures & Algorithms, Full Stack Development, Java, React.js, Node.js, MongoDB, and SQL while continuously solving coding challenges to improve my problem-solving abilities.</p>
-          <p class="highlight">I specialize in developing responsive websites, modern UI designs, and scalable web applications that deliver excellent user experiences across all devices.</p>
+        <h3>Hello, I am MAHI PATEL</h3>
+        <p>I'm a passionate Frontend Developer and Software Engineering student
+          with a strong interest in building modern, responsive, and
+          user-friendly web applications. I enjoy turning creative ideas into
+          interactive digital experiences using clean code and intuitive
+          design.</p>
+        <p>Currently, I'm strengthening my skills in Data Structures &
+          Algorithms, Full Stack Development, Java, React.js, Node.js, MongoDB,
+          and SQL while continuously solving coding challenges to improve my
+          problem-solving abilities.</p>
+        <p class="highlight">I specialize in developing responsive websites,
+          modern UI designs, and scalable web applications that deliver
+          excellent user experiences across all devices.</p>
         <div class="hero-buttons">
-              <a href="contact.html"
-                class="cta-button" target="_blank">
-                Let's Connect
-              </a>
+          <a href="contact.html"
+            class="cta-button" target="_blank">
+            Let's Connect
+          </a>
 
-               <a href="resume.pdf" class="cta-button secondary-btn" target="_blank">
-                  <i class="fa-solid fa-file-pdf"></i> Resume
-               </a>
+          <a href="resume.pdf" class="cta-button secondary-btn" target="_blank">
+            <i class="fa-solid fa-file-pdf"></i> Resume
+          </a>
         </div>
       </div>
 
       <div class="hero-image">
         <img src="images/m.png" alt="Profile Photo"
-         class="profile-img">
+          class="profile-img">
       </div>
 
-</section>
-
-
-    <section id="skill" class="skills">
-       <h2> Technical Expertise</h2>
-       <div class="skills-grid">
-          <div class="skill-card">
-             <i class="fa-solid fa-code"></i>
-             <h3>Fronted Developement</h3>
-             <p>ReactJs , HTML5 , CSS , JavaScript</p>
-          </div>
-          <div class="skill-card">
-            <i class="fa-solid fa-server"></i>
-            <h3>Backend Developement</h3>
-            <p>C , Java , Python , Node.js , MongoDB , SQL </p>
-          </div>
-          <div class="skill-card">
-            <i class="fa-solid fa-paintbrush"></i>
-            <h3>UI/UX Design</h3>
-            <p>Figma , Canva , Filmora </p>
-          </div>
-          <div class="skill-card">
-            <i class="fa-solid fa-brain"></i>
-            <h3>Problem Solving</h3>
-            <p>Data Structures, Algorithms, LeetCode</p>
-        </div>
-       </div>
     </section>
 
-   <script src="script.js"></script>
-</body>
+    <section id="skill" class="skills">
+      <h2> Technical Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fa-solid fa-code"></i>
+          <h3>Fronted Developement</h3>
+          <p>ReactJs , HTML5 , CSS , JavaScript</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-server"></i>
+          <h3>Backend Developement</h3>
+          <p>C , Java , Python , Node.js , MongoDB , SQL </p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-paintbrush"></i>
+          <h3>UI/UX Design</h3>
+          <p>Figma , Canva , Filmora </p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-brain"></i>
+          <h3>Problem Solving</h3>
+          <p>Data Structures, Algorithms, LeetCode</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
 <!-- GitHub Pages Deployment -->
-    
