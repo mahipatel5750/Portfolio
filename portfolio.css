@@ -248,7 +248,7 @@ p {
     transform: translateY(-3px);
 }
 .menu-toggle {
-    display: block;
+    display: none;
     font-size: 2rem;
     color: white;
     cursor: pointer;
@@ -289,7 +289,7 @@ p {
         padding: 20px;
         gap: 15px;
 
-        box-shadow: 0 0 20px rgba(0, 102, 204, .3);
+        box-shadow: 0 10 25px rgba(0, 0, 0, .4);
     }
 
     .nav-links.active {
@@ -880,5 +880,14 @@ border-top: 1px solid rgb(255,255,255,0.1);
     .contact-wrapper {
         max-width: 1400px;
         margin: auto;
+    }
+}
+@media (min-width: 769px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex !important;
     }
 }
